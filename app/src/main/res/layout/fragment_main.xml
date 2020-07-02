@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safeflight.Fragment.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/top">
+
+        <Button
+            android:id="@+id/fra_main_btn1"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/info_et_bg"
+            android:gravity="center"
+            android:text="列表新闻"
+            android:textColor="#3D7EB1"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/fra_main_btn2"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/fra_main_btn1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/info_et_bg"
+            android:gravity="center"
+            android:text="图片新闻"
+            android:textColor="#3D7EB1"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/fra_main_btn3"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/fra_main_btn4"
+            android:adjustViewBounds="true"
+            android:background="@drawable/info_et_bg"
+            android:gravity="center"
+            android:text="天气查询"
+            android:textColor="#3D7EB1"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/fra_main_btn4"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/info_et_bg"
+            android:gravity="center"
+            android:text="历史今天"
+            android:textColor="#3D7EB1"
+            android:textSize="16sp"></Button>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:text="事故新闻"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="189dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:src="@drawable/home_a"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:src="@drawable/home_c" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="149dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="外交部公告"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="飞行航迹"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="189dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:src="@drawable/home_b"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:src="@drawable/home_d" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="149dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="薅羊毛"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="核酸检测"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="更多资讯"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp">
+    </TextView>
+
+    <com.example.safeflight.Other.Writeagain.FocusTextView
+        android:id="@+id/focus_tv"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="2020年3月9日，一个从泰国飞往上海的航班受到大家关注。飞机在抵达之后，需要对人员进行检查，并且进行相关消毒。其中一名女乘客非常不满等待时间过长，随即她对着飞机的空姐疯狂的咳嗽。这件事情发生后，引来了很大的争议，而航空公司也发出官方回应，证实这件事真实发生。"
+        android:textSize="20sp"></com.example.safeflight.Other.Writeagain.FocusTextView>
+</LinearLayout>

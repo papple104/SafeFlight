@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safeflight.Other.Information.InfoFiveActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020年3月9日泰航飞上海航班乘客等待检查7小时，朝空乘狂咳嗽"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/five_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="25"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text=" 3月9日，一个从泰国飞往上海的航班受到大家关注。飞机在抵达之后，需要对人员进行检查，并且进行相关消毒。其中一名女乘客非常不满等待时间过长，随即她对着飞机的空姐疯狂的咳嗽。这件事情发生后，引来了很大的争议，而航空公司也发出官方回应，证实这件事真实发生。针对飞上海浦东航班一名女乘客朝空乘咳嗽一事，泰国航空称，事发于3月6日从曼谷飞往上海的TG664航班上，在飞机降落时，泰国航空收到机场通知，要求进行疫情防控检查，采取筛选措施，了解机上乘客来源。由于机上乘客人数以及机场方面安排，航班上乘客等待了约7个小时。泰航澄清称根据防控要求，乘客必须等待该项检查，其中一名乘客感到不开心，随后朝着一名女空乘狂咳嗽，后来该名女乘客经过劝说冷静下来，继续等待检查。"
+        android:textColor="#3D7087"
+        android:textSize="15dp"></TextView>
+
+</LinearLayout>

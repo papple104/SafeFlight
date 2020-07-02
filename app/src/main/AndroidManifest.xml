@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.safeflight">
+
+    <application
+        android:name="com.example.safeflight.Other.Weather.base_wea.UnitApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="safe flight航空安全app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.safeflight.Search.sactivity.NewsReasonActivity"></activity>
+        <activity android:name="com.example.safeflight.Search.sactivity.ReasonSecondActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.ManChangeActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.ManChooseActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.example.safeflight.Search.sactivity.ManAddActivity"></activity>
+        <activity android:name="com.example.safeflight.Search.sactivity.ManSelectActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.ManRegistActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.ManPasswordActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.ManLoginActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.ReasonListActivity"/>
+        <activity android:name="com.example.safeflight.Search.sactivity.TypeListActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.ReasonActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.TypeActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.MessageActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.DuoListActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.MultipleActivity" />
+        <activity android:name="com.example.safeflight.Search.sactivity.SingleActivity" />
+        <activity android:name="com.example.safeflight.Other.AccInfo.AccListActivity" />
+        <activity android:name="com.example.safeflight.Other.Weather.WmoreActivity" />
+        <activity android:name="com.example.safeflight.Other.History.HistoryDescActivity" />
+        <activity android:name="com.example.safeflight.Other.History.HistoryDesActivity" />
+        <activity android:name="com.example.safeflight.Other.History.HistoryActivity" />
+        <activity android:name="com.example.safeflight.Other.Weather.city_manager.DeleteCityActivity" />
+        <activity android:name="com.example.safeflight.Other.Weather.city_manager.SearchCityActivity" />
+        <activity android:name="com.example.safeflight.Other.Weather.city_manager.CityManagerActivity" />
+        <activity android:name="com.example.safeflight.Other.Weather.WeatherActivity" />
+        <activity android:name="com.example.safeflight.My.PasswordActivity" />
+        <activity android:name="com.example.safeflight.My.RegistActivity" />
+        <activity android:name="com.example.safeflight.Other.PicInfo.AirDescActivity" />
+        <activity android:name="com.example.safeflight.Other.PicInfo.AirGrid.AirGridActivity" />
+        <activity android:name="com.example.safeflight.Other.PicInfo.AirList.InfoListActivity" />
+        <activity android:name="com.example.safeflight.Activity.DetailSearchActivity" />
+        <activity android:name="com.example.safeflight.Other.Information.InfoFiveActivity" />
+        <activity android:name="com.example.safeflight.My.LoginActivity" />
+        <activity android:name="com.example.safeflight.Other.Information.InfoFourActivity" />
+        <activity android:name="com.example.safeflight.Other.Information.InfoThreeActivity" />
+        <activity android:name="com.example.safeflight.Other.Information.InfoTwoActivity" />
+        <activity android:name="com.example.safeflight.Other.Information.InfoOneActivity" />
+        <activity android:name="com.example.safeflight.Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.safeflight.Activity.GuideActivity" />
+        <activity android:name="com.example.safeflight.Activity.MainActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>

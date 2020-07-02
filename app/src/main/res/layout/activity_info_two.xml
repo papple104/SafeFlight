@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safeflight.Other.Information.InfoTwoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020年6月18日萧山机场范围多架无人机致航班延误"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="据网友爆料，当晚9点，杭州萧山国际机场范围有人飞无人机，导致这一时段的航班无法降落，“好几架无人机，肉眼都能看到。”晚上10点多，一位在萧山机场附近工作的市民表示，机场里已经有大半个小时没有飞机起降了。平时晚上这个点应该算是航班起降小高峰，但今天好像20多分钟前才看到一架落地航班。晚上10点29分，从北京飞来杭州的CA1706航班落地。该航班原本应该是晚上9点05分前后落地的，但一直在空中盘旋了近1个小时。该航班的乘客反映，晚上9点不到飞机就下降了，9点10多分从飞机舷窗里都能看到机场轮廓了，可飞机一下子突然又拉升了。“感觉飞机一直在绕圈。我觉得绕了5圈以上都有的。”"
+        android:textColor="#3D7087"
+        android:textSize="15dp"></TextView>
+
+</LinearLayout>

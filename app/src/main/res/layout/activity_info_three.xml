@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safeflight.Other.Information.InfoThreeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020年6月9日南京女子利用航班延误险诈骗300多万被抓获"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6月9日，南京市公安局发布消息称，近日鼓楼警方成功侦破一起航班延误保险诈骗案，犯罪嫌疑人李某从2015年至今，通过购票虚构行程，在累计近900次延误航班中获得了高达300多万元理赔金。6月12日，南京市公安局鼓楼分局发布警方通报，关于网民关注的“南京警方破获女子利用航班延误骗保300多万元”的案件，经查证，2015年以来，犯罪嫌疑人李某（女，45岁，山东青岛人，曾从事航空服务类工作）多次伪造航班延误证明等材料，虚构航班延误事实，骗取巨额保险金。目前，检察机关已提前介入，案件正在进一步侦办中。有律师表示，“薅羊毛”行为从某种程度来说，有悖于民法理论中的诚实信用原则。这样确实不道德，但很难说违法。本身是由于保险公司的延误险存在漏洞，所以才会让李某有机可趁，这是保险公司自己的问题，现实中不应追究“羊毛党”的责任。"
+        android:textColor="#3D7087"
+        android:textSize="15dp"></TextView>
+
+</LinearLayout>
